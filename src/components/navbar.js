@@ -16,7 +16,9 @@ export default function Navbar() {
     };
 
     
-    
+    React.useEffect(() => {
+        handleInitialRedirect();
+    }, []);
 
     const handleChange = (event, newValue) => {
         setValue(newValue);
