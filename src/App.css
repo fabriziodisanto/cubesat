@@ -48,6 +48,8 @@ h2{
   
 }
 
+
+
 .aboutusdescription{
   display: flex;
   align-items: center;
@@ -62,5 +64,11 @@ h2{
   width: 50%;
   min-height: 100vh;
   
+}
+.contacto{
+  font-size: xx-large;
+  text-align: center;
+  padding: 10rem;
+  line-height: 5rem;
 }
 
