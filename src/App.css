@@ -1,38 +1,66 @@
-.App {
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace !important;
+  
+}
+
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+h1{
+  padding-left: 2rem;
+}
+
+h2{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.innertitles{
+  text-align: center;
+  color: rgb(75, 149, 197);
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.aboutus{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-image: url("/src/img/solarpanel.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
+  
+
+}
+.panel{
+  font-size:xx-large;
+  display: flex;
+  width: 50%;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 1.5rem;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.aboutusdescription{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  line-height: 3.5rem;
+  font-family: 'Roboto Mono', monospace;
+  font-size: xx-large;
+  color: aliceblue;
+  background-color: rgba(22, 41, 56, 0.6);
+  width: 50%;
+  min-height: 100vh;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
