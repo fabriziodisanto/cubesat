@@ -2,16 +2,22 @@ import * as React from 'react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+
 
 export default function Navbar() {
     const navigate = useNavigate();
     const [value, setValue] = useState('one');
 
-    useEffect(() => {
-
+    // Esta función manejará la redirección inicial
+    const handleInitialRedirect = () => {
         navigate('/nosotros');
+    };
+
+    
+    React.useEffect(() => {
+        handleInitialRedirect();
     }, []);
 
     const handleChange = (event, newValue) => {
@@ -20,7 +26,8 @@ export default function Navbar() {
     const linkStyle = {
         textDecoration: 'none',
         color: 'inherit', 
-        cursor: 'pointer'}
+        cursor: 'pointer'
+    };
 
     return (
         <div>
@@ -38,7 +45,6 @@ export default function Navbar() {
                     >
                         <Tab value="1" label="SOBRE NOSOTROS" onClick={() => navigate('/nosotros')} />
                         <Tab value="2" label="PANELES SOLARES" onClick={() => navigate('/panelessolares')} />
-
                         <Tab value="3" label="CONTACTO" onClick={() => navigate('/contacto')} />
                     </Tabs>
                 </Box>
