@@ -10,15 +10,13 @@ export default function Navbar() {
     const navigate = useNavigate();
     const [value, setValue] = useState('one');
 
-    // Esta función manejará la redirección inicial
+    
     const handleInitialRedirect = () => {
         navigate('/nosotros');
     };
 
     
-    React.useEffect(() => {
-        handleInitialRedirect();
-    }, []);
+    
 
     const handleChange = (event, newValue) => {
         setValue(newValue);
