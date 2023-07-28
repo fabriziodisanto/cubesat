@@ -10,13 +10,7 @@ export default function Navbar() {
     const navigate = useNavigate();
     const [value, setValue] = useState('one');
 
-    const handleInitialRedirect = () => {
-        navigate('/nosotros');
-    };
-
-    React.useEffect(() => {
-        handleInitialRedirect();
-    }, [handleInitialRedirect]);
+    
 
     const handleChange = (event, newValue) => {
         setValue(newValue);
@@ -28,7 +22,6 @@ export default function Navbar() {
     };
 
     return (
-        <div>
             <header>
                 <h1>
                     <a style={linkStyle} href="/nosotros">S&L CUBESAT</a>
@@ -47,6 +40,5 @@ export default function Navbar() {
                     </Tabs>
                 </Box>
             </header>
-        </div>
     );
 }

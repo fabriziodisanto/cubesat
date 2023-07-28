@@ -6,12 +6,18 @@
   
 }
 
+.App{
+  display: flex;
+  flex-direction: column;
+}
+
 
 header{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 2rem;
+  height: 15vh;
 }
 
 h1{
@@ -29,7 +35,7 @@ h2{
 }
 
 .aboutus{
-
+  height: 85vh;
   background-image: url("/src/img/solarpanel.jpg");
   background-repeat:no-repeat;
   background-size: cover;
@@ -38,37 +44,60 @@ h2{
   
 
 }
-.panel{
-  font-size:xx-large;
-  display: flex;
-  width: 50%;
-  align-items: center;
-  justify-content: center;
-  padding: 1.5rem;
-  
-}
-
 
 
 .aboutusdescription{
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: x-large;
   text-align: center;
   padding: 30px;
-  line-height: 3.5rem;
-  font-family: 'Roboto Mono', monospace;
-  font-size: xx-large;
   color: aliceblue;
   background-color: rgba(22, 41, 56, 0.6);
   width: 50%;
-  min-height: 100vh;
   
 }
 .contacto{
   font-size: xx-large;
   text-align: center;
-  padding: 10rem;
+  padding: 2rem;
+  height: 85vh;
   line-height: 5rem;
 }
+
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.cardcontainer{
+  position: relative;
+  display: block;
+  width: 100%
+
+}
+
+.cardcontainer >img{
+  height: 75%;
+}
+
+.cardtext{
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  background-color: rgb(22, 86, 135);
+  width: 80%;
+  padding: 15px;
+}
+
+.cardsection{
+  display: flex;
+}
+
 
