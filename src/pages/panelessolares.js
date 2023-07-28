@@ -9,42 +9,17 @@ export default function PanelesSolares() {
 
     return (
         <div>
-        <button className="btn btn-primary">ACA ESTOY HDP</button>
+        
         <Carousel data-bs-theme="dark">
             <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    src={img1}
-                    alt="First slide"
-                />
-                <Carousel.Caption>
-                    <h5>First slide label</h5>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
+            <Card title={'Paneles solares argentinos: Calidad asegurada'} description={'Los paneles que ofrecemos son integrados en laboratorios de nuestro país donde se fabricaron todos los paneles solares acoplados a los satélites construidos en la República Argentina, bajo estricto cumplimiento de todos los ensayos de aceptación y calificación de las Normas Vigentes.'} src={img1} />
             </Carousel.Item>
             <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    src={img2}
-                    alt="Second slide"
-                />
-                <Carousel.Caption>
-                    <h5>Second slide label</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
+            <Card title={'Procedimientos certificados para paneles solares'} description={'La integración de las celdas a los paneles se realiza con los mismos procedimientos aprobados por los organismos internacionales, con realización de ciclados térmicos en vacío y en atmósfera controlada.'} src={img2} />
+                
             </Carousel.Item>
             <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    src={img3}
-                    alt="Third slide"
-                />
-                <Carousel.Caption>
-                    <h5>Third slide label</h5>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
-                </Carousel.Caption>
+            <Card title={'Garantía de calidad en cada panel solar'} description={'A cada panel se le realiza los informes de Aislamiento de continuidad entre celdas y sustrato y verificaciones de funcionamiento, Flash e inspecciones visuales de las celdas solares.'} src={img3} />
             </Carousel.Item>
         </Carousel>
         </div>
