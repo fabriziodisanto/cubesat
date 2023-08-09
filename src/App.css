@@ -18,14 +18,11 @@ section{
 header{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0.3rem;
   flex-direction: column;
 }
 
-h1{
-  padding-left: 2rem;
-}
 
 h2{
   text-align: center;
