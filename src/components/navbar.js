@@ -40,7 +40,7 @@ export default function Navbar() {
                     textColor="primary"
                     indicatorColor="primary"
                     aria-label="secondary tabs example"
-                    variant={window.outerWidth < 800  ? "fullWidth" : 'standard'}
+                    variant={window.outerWidth < 850  ? "fullWidth" : 'standard'}
                 
                 >
                     <Tab value="1" label="SOBRE NOSOTROS" onClick={() => scrollToSection('aboutUsSection')} />

@@ -80,6 +80,7 @@ a:hover{
   background-image: url(/src/img/contactbackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   display: grid;
   place-content: center;
 
