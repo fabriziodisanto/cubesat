@@ -2,7 +2,7 @@ import Card from "../components/card";
 import img1 from '../img/img1.jpg'
 import car2 from '../img/car2.webp'
 import carou from '../img/carou.JPG'
-import logo from '../img/img4.jpg'
+import logo from '../img/logosnl_inverted.jpg'
 import { Carousel } from "react-bootstrap";
 
 export default function Whole() {
@@ -31,8 +31,8 @@ export default function Whole() {
             <section id='contactoSection' className="contacto">
                 <img src={logo} alt="logo" />
                 <p>SOLUCIONES & LOGISTICA</p>
-                <p>Mail:<a href="mailto:solylog@gmail.com">solylog@gmail.com</a></p>
-                <p>Cel:<a href="tel:1144407032">(11)4440-7032</a></p>
+                <i className="bi bi-envelope-at icons"><a href="mailto:solylog@gmail.com">solylog@gmail.com</a></i>
+                <i className="bi bi-telephone icons">  <a href="tel:1144407032">(11)4440-7032</a></i>
 
                 <p>Asesor Técnico: Ing.Jose Di Santo</p>
             </section>

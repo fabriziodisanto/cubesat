@@ -19,7 +19,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.1rem;
+  padding: 0.3rem;
   flex-direction: column;
 }
 
@@ -30,6 +30,15 @@ h1{
 h2{
   text-align: center;
 }
+a{
+  text-decoration:none;
+  color: #fff;
+}
+
+a:hover{
+  color: rgb(63, 150, 211);
+  transition: .3s;
+}
 
 .innertitles{
   text-align: center;
@@ -39,12 +48,11 @@ h2{
 
 .aboutus{
   height: 85vh;
-  background-image: url("/src/img/contactbackground.jpg");
+  background-image: url("/src/img/backpexels.jpg");
   background-repeat:no-repeat;
   background-size: cover;
   display: flex;
   justify-content: flex-end;
-  
 
 }
 
@@ -69,7 +77,7 @@ h2{
   padding: 2rem;
   height: 85vh;
   line-height: 5rem;
-  background-image: url(/src/img/backgroundpic.jpg);
+  background-image: url(/src/img/contactbackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -123,6 +131,10 @@ h2{
 }
 .carouselview{
   height: 100vh;
+}
+
+.icons{
+  display: block;
 }
 
 
