@@ -29,12 +29,11 @@ export default function Whole() {
             </section>
 
             <section id='contactoSection' className="contacto">
-                <img src={logo} alt="logo" />
+                <img id='logo' src={logo} alt="logo" />
                 <p>SOLUCIONES & LOGISTICA</p>
-                <i className="bi bi-envelope-at icons"><a href="mailto:solylog@gmail.com">solylog@gmail.com</a></i>
+                <i className="bi bi-envelope-at icons"> <a href="mailto:solylog@gmail.com"> solylog@gmail.com</a></i>
                 <i className="bi bi-telephone icons">  <a href="tel:1144407032">(11)4440-7032</a></i>
-
-                <p>Asesor Técnico: Ing.Jose Di Santo</p>
+                <p >Asesor Técnico: Ing.Jose Di Santo</p>
             </section>
         </div>
     )
