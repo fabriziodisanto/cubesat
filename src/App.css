@@ -19,7 +19,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 0.1rem;
   flex-direction: column;
 }
 
@@ -90,6 +90,10 @@ h2{
 
 }
 
+.carouselText{
+  font-size: 25px;
+}
+
 .cardcontainer >img{
   height: 100%;
   width: 100%;
@@ -119,6 +123,19 @@ h2{
 }
 .carouselview{
   height: 100vh;
+}
+
+
+@media (max-width:1100px) {
+  .aboutus{
+    background-position: center;
+
+  }
+
+  .aboutusdescription{
+    width: 100%;
+    font-size: 1.3rem;
+  }
 }
 
 

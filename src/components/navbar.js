@@ -23,13 +23,14 @@ export default function Navbar() {
     const linkStyle = {
         textDecoration: 'none',
         color: 'black', 
-        cursor: 'pointer'
+        cursor: 'pointer',
+        fontSize: '35px',
     };
     
     return (
         <header className='sticky-navbar'>
             <h1>
-                <a style={linkStyle} href="/whole">S&L CUBESAT</a>
+                <a style={linkStyle} href="/">S&L CUBESAT</a>
             </h1>
             <Box sx={{ display: 'flex', justifyContent: 'flex-end', fontSize: '' }}>
                 <Tabs
@@ -39,6 +40,8 @@ export default function Navbar() {
                     textColor="primary"
                     indicatorColor="primary"
                     aria-label="secondary tabs example"
+                    variant="fullWidth"
+                
                 >
                     <Tab value="1" label="SOBRE NOSOTROS" onClick={() => scrollToSection('aboutUsSection')} />
                     <Tab value="2" label="PANELES SOLARES" onClick={() => scrollToSection('carouselSection')} />

@@ -5,8 +5,8 @@ export default function Card({title,description,src}){
         <div className="cardcontainer">
             <img src={src} alt="img-slide"/>
             <div className="cardtext">
-                <h3>{title}</h3>
-                <p>{description}</p>
+                <h2>{title}</h2>
+                <p className="carouselText">{description}</p>
             </div>
         </div>
     )
