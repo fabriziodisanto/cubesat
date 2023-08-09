@@ -14,7 +14,7 @@ export default function Whole() {
             </section>
 
             <section id='carouselSection'>
-                <Carousel data-bs-theme="dark">
+                <Carousel data-bs-theme="dark" className="carouselview">
                     <Carousel.Item>
                         <Card title={'Paneles solares argentinos: Calidad asegurada'} description={'Los paneles que ofrecemos son integrados en laboratorios de nuestro país donde se fabricaron todos los paneles solares acoplados a los satélites construidos en la República Argentina, bajo estricto cumplimiento de todos los ensayos de aceptación y calificación de las Normas Vigentes.'} src={img1} />
                     </Carousel.Item>

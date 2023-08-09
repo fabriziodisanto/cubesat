@@ -19,8 +19,8 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem;
-  height: 15vh;
+  padding: 1rem;
+  flex-direction: column;
 }
 
 h1{
@@ -86,7 +86,7 @@ h2{
 .cardcontainer{
   position: relative;
   display: block;
-  height:85vh
+  height:100vh
 
 }
 
@@ -102,7 +102,7 @@ h2{
   bottom: 0;
   right: 0;
   color: white;
-  background-color: rgb(22, 86, 135);
+  background-color: rgb(3, 23, 39);
   width: 80%;
   padding: 15px;
 }
@@ -116,6 +116,9 @@ h2{
   top: 0;
   background-color:rgb(255, 255, 255);  
   z-index: 1000; /* Adjust the z-index as needed */
+}
+.carouselview{
+  height: 100vh;
 }
 
 

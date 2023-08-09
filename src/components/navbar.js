@@ -16,7 +16,7 @@ export default function Navbar() {
     const scrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);
         if (section) {
-            section.scrollIntoView({ behavior: 'smooth' });
+            section.scrollIntoView({ behavior: 'smooth',block: "end", inline: "nearest" });
         }
     };
     
