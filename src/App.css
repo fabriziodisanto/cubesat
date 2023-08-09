@@ -2,7 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto Mono', monospace !important;
+  font-family: 'Dosis', sans-serif;
+
   
 }
 
@@ -10,7 +11,9 @@
   display: flex;
   flex-direction: column;
 }
-
+section{
+  height: 100vh;
+}
 
 header{
   display: flex;
@@ -36,7 +39,7 @@ h2{
 
 .aboutus{
   height: 85vh;
-  background-image: url("/src/img/solarpanel.jpg");
+  background-image: url("/src/img/contactbackground.jpg");
   background-repeat:no-repeat;
   background-size: cover;
   display: flex;
@@ -50,21 +53,25 @@ h2{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: x-large;
+  font-size: 30px;
   text-align: center;
   padding: 30px;
   color: aliceblue;
-  background-color: rgba(22, 41, 56, 0.6);
+  background-color: rgba(1, 8, 14, 0.6);
   width: 50%;
   height: 85vh;
   
 }
 .contacto{
   font-size: xx-large;
+  color: #fff;
   text-align: center;
   padding: 2rem;
   height: 85vh;
   line-height: 5rem;
+  background-image: url(/src/img/backgroundpic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -102,6 +109,13 @@ h2{
 
 .cardsection{
   display: flex;
+}
+
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  background-color:rgb(255, 255, 255);  
+  z-index: 1000; /* Adjust the z-index as needed */
 }
 
 

@@ -5,6 +5,7 @@ import Navbar from './components/navbar';
 import AboutUs from './pages/aboutus';
 import Contact from './pages/contacto';
 import PanelesSolares from './pages/panelessolares';
+import Whole from './pages/whole';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/nosotros" element={<AboutUs />} />
           <Route exact path='/contacto' element={<Contact />}/>
           <Route exact path='/panelessolares' element={<PanelesSolares />}/>
+          <Route exact path='/whole' element={<Whole/>}/>
         </Routes>
       </BrowserRouter>
 
