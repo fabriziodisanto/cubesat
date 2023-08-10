@@ -16,14 +16,14 @@ export default function Whole() {
             <section id='carouselSection'>
                 <Carousel data-bs-theme="dark" className="carouselview">
                     <Carousel.Item>
-                        <Card title={'Paneles solares argentinos: Calidad asegurada'} description={'Los paneles que ofrecemos son integrados en laboratorios de nuestro país donde se fabricaron todos los paneles solares acoplados a los satélites construidos en la República Argentina, bajo estricto cumplimiento de todos los ensayos de aceptación y calificación de las Normas Vigentes.'} src={img1} />
+                        <Card title={'Paneles Solares Argentinos: Calidad Asegurada'} description={'Los paneles que ofrecemos son integrados en laboratorios de nuestro país donde se fabricaron todos los paneles solares acoplados a los satélites construidos en la República Argentina, bajo estricto cumplimiento de todos los ensayos de aceptación y calificación de las Normas Vigentes.'} src={img1} />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <Card title={'Procedimientos certificados para paneles solares'} description={'La integración de las celdas a los paneles se realiza con los mismos procedimientos aprobados por los organismos internacionales, con realización de ciclados térmicos en vacío y en atmósfera controlada.'} src={car2} />
+                        <Card title={'Procedimientos Certificados para Paneles Solares'} description={'La integración de las celdas a los paneles se realiza con los mismos procedimientos aprobados por los organismos internacionales, con realización de ciclados térmicos en vacío y en atmósfera controlada. Además, a cada panel se le realizan los informes de Aislamiento de continuidad entre celdas y sustrato y verificaciones de funcionamiento, Flash e inspecciones visuales de las celdas solares.'} src={car2} />
 
                     </Carousel.Item>
                     <Carousel.Item>
-                        <Card title={'Garantía de calidad en cada panel solar'} description={'A cada panel se le realiza los informes de Aislamiento de continuidad entre celdas y sustrato y verificaciones de funcionamiento, Flash e inspecciones visuales de las celdas solares.'} src={carou} />
+                        <Card title={'Integración Personalizada'} description={'Nuestros paneles solares son compatibles con CUBESAT con opciones personalizadas a pedido en tamaño de 1-6U. Sus celdas calificadas para vuelo del tipo triple juntura tienen una eficiencia estimada del 28%. El circuito impreso (PCB) de FR4 hace de sustrato del panel solar.'} src={carou} />
                     </Carousel.Item>
                 </Carousel>
             </section>
