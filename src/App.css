@@ -86,7 +86,7 @@ a:hover{
 }
 #logo{
   margin: 0 auto;
-  width: 6rem;
+  width: 18rem;
   height:auto;
 }
 
@@ -135,7 +135,7 @@ a:hover{
   position: sticky;
   top: 0;
   background-color:rgb(255, 255, 255);  
-  z-index: 1000; /* Adjust the z-index as needed */
+  z-index: 1000; 
 }
 .carouselview{
   height: 100vh;
