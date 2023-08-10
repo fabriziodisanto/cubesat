@@ -26,6 +26,7 @@ header{
 
 h2{
   text-align: center;
+  font-weight: bold;
 }
 a{
   
@@ -120,7 +121,7 @@ a:hover{
   bottom: 0;
   right: 0;
   color: white;
-  background-color: rgb(3, 23, 39);
+  background-color:rgba(1, 13, 22, 0.666);
   width: 80%;
   padding: 15px;
 }
