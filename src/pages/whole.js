@@ -1,6 +1,6 @@
 import Card from "../components/card";
 import img1 from '../img/img1.jpg'
-import car2 from '../img/car22.png'
+import car2 from '../img/car23.png'
 import carou from '../img/carou.JPG'
 import logo from '../img/logosnl_inverted.jpg'
 import imgor from '../img/4tocar.jpg'
